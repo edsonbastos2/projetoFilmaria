@@ -1,0 +1,43 @@
+.meus-filmes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meus-filmes span{
+    font-size: 23px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    min-width: 600px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btnFavoritos button{
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: brown;
+    color: #fff;
+    margin-left: 10px;
+}
+ .btnFavoritos a{
+     text-decoration: none;
+     color: #486CE5;
+     font-weight: bold;
+ }
+
+ .btnFavoritos a:hover{
+     text-decoration: underline;
+ }
